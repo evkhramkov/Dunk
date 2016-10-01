@@ -33,7 +33,7 @@ class ShotCollectionViewController: UICollectionViewController{
     }
     
     func loadShots(){
-        self.collectionView!.backgroundColor = UIColor.hexStr("f5f5f5", alpha: 1.0)
+        self.collectionView!.backgroundColor = UIColor.hexStr("656565", alpha: 1.0)
         
         cellWidth = self.view.bounds.width
         cellHeight = self.view.bounds.height / 2.5
